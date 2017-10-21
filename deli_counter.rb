@@ -10,7 +10,8 @@ else
    katz_deli.each_with_index do |name, index|
     message += "#{index + 1}. #{name} "
     end
-    puts message -= " "
+    message -= " "
+    puts message
   end
 end
 
